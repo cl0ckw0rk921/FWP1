@@ -1,0 +1,67 @@
+body {
+}
+
+.parallax {
+    background-image: url('/static/images/YOlogo.jpg');
+    height: 610px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: transparent;
+    padding-left: 1%;
+    color: black;
+    text-shadow: 3px 3px 8px #fff;
+}
+
+    .jumbotron h1 span {
+        background-color: #cf9414;
+        opacity: .9;
+        box-shadow: 1px 1px 2px 3px black;
+    }
+
+    .jumbotron h3 span {
+        background-color: #cf9414;
+        opacity: .9;
+        margin: 0 0 0 20px;
+        box-shadow: 1px 1px 2px 3px black;
+    }
+
+.btn-volunteer {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 10px 14px;
+    margin: 10px;
+    background: #3DB794;
+    text-shadow: 1px 1px 1px black;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 1px 2px 3px black;
+}
+
+    .btn-volunteer:hover {
+        background: #2A7D65;
+    }
+
+.person {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+}
+
+.inkind {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    margin-bottom: 25px;
+    width: 40%;
+    height: 40%;
+}

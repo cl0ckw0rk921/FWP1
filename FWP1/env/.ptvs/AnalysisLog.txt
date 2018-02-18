@@ -5670,3 +5670,11 @@ D:\daniel\Microsoft VS Code\development\Common7\IDE\Extensions\Microsoft\Python\
 2018-02-06T03:37:57: Deleting 2 files
 2018-02-06T03:37:57: Deleting "D:\daniel\codeprojects\FWP1\FWP1\env\.ptvs\_dummy_threading.idb"
 2018-02-06T03:37:57: Deleting "D:\daniel\codeprojects\FWP1\FWP1\env\.ptvs\_dummy__threading_local.idb"
+
+2018-02-07T05:32:24: Start analysis
+2018-02-07T05:32:24: IncludeModulesFromModulePath = win32com
+2018-02-07T05:32:24: Deleting 0 files
+
+2018-02-18T09:12:08: Start analysis
+2018-02-18T09:12:08: IncludeModulesFromModulePath = win32com
+2018-02-18T09:12:10: Deleting 0 files

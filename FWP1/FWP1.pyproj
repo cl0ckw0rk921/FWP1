@@ -40,15 +40,24 @@
     <Folder Include="FWP1\static\images\" />
     <Folder Include="FWP1\static\scripts\" />
     <Folder Include="FWP1\templates\" />
+    <Folder Include="FWP1\templates\partials\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="FWP1\static\content\about.css" />
+    <Content Include="FWP1\static\content\home.css" />
     <Content Include="FWP1\static\content\inventory.css" />
     <Content Include="FWP1\static\images\boy_clothes.svg" />
     <Content Include="FWP1\static\images\dress_icon.svg" />
     <Content Include="FWP1\static\images\sunglasses.jpeg" />
     <Content Include="FWP1\static\images\YOlogo.jpg" />
+    <Content Include="FWP1\templates\biographies.html" />
+    <Content Include="FWP1\templates\diy.html" />
+    <Content Include="FWP1\templates\donations.html" />
+    <Content Include="FWP1\templates\internships.html" />
     <Content Include="FWP1\templates\logistics.html" />
+    <Content Include="FWP1\templates\partials\header.html" />
+    <Content Include="FWP1\templates\sponsors.html" />
+    <Content Include="FWP1\templates\volunteer.html" />
     <Content Include="requirements.txt" />
     <Content Include="FWP1\static\content\bootstrap.css" />
     <Content Include="FWP1\static\content\bootstrap.min.css" />
@@ -74,7 +83,7 @@
     <Content Include="FWP1\static\scripts\_references.js" />
     <Content Include="FWP1\templates\about.html" />
     <Content Include="FWP1\templates\contact.html" />
-    <Content Include="FWP1\templates\index.html" />
+    <Content Include="FWP1\templates\home.html" />
     <Content Include="FWP1\templates\layout.html" />
   </ItemGroup>
   <ItemGroup>

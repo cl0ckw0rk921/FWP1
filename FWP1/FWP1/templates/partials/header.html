@@ -1,16 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - Help YO! House</title>
-    <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
-    <script src="/static/scripts/modernizr-2.6.2.js"></script>
-</head>
-
-<body>
-   <div class="navbar navbar-default navbar-fixed-top">
+﻿<div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/"><i class="fa fa-hand-spock-o"></i>Youth Outreach (YO!)</a>
@@ -27,33 +15,16 @@
                         <li><a href="/about">About Us</a></li>
                         <li><a href="/biographies">Biographies</a></li>
                         <li><a href="/contact">Contact</a></li>
-                        <li><a href="/logistics">Logistics</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="/about">Friends of YO<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/sponsors">Sponsors</a></li>
-                        <li><a href="/diy">DIY : Junior League Style</a></li>
+                        <li><a href="/diy">DIY : Junior League</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
-     </div>
     </div>
-
-    <div class="container body-content">
-        {% block content %}{% endblock %}
-        <hr />
-        <footer>
-            <p>&copy; {{ year }} - YO! Inventory Application</p>
-        </footer>
-    </div>
-
-    <script src="/static/scripts/jquery-1.10.2.js"></script>
-    <script src="/static/scripts/bootstrap.js"></script>
-    <script src="/static/scripts/respond.js"></script>
-    {% block scripts %}{% endblock %}
-
-</body>
-</html>
+</div>
