@@ -1,5 +1,64 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<p>lets do something new</p>
-{% endblock %}
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/content/home.css" />
+</head>
+
+<div class="parallax">
+    <div class="jumbotron">
+        <h1><span>Youth Outreach (YO!)</span></h1>
+        <h3> <span>YO! provides : </span></h3>
+        <h3> <span>street outreach, </span></h3>
+        <h3> <span>drop-in services,</span></h3>
+        <h3> <span>case management, </span></h3>
+        <h3> <span>and health and medical services to youth</span></h3>
+        <h3> <span>on a referral or walk-in basis.</span></h3>
+        <a href="/volunteer" class="btn btn-volunteer" role="button">Volunteer</a>
+        <a href="/internships" class="btn btn-volunteer" role="button">Internships</a>
+        <a href="/donations" class="btn btn-volunteer" role="button">Donations</a>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-sm-6 text-center">
+        <h2>Hot Items Needed</h2><img class="inkind" src="/static/images/sunglasses.jpeg" alt="Person 1" />
+        <p class="strong">Boy Shirts</p>
+        <p class="strong">Girl Shirts</p>
+        <p class="strong">Shoes and Slippahs</p>
+        <p class="strong">Tooth Brushes</p>
+        <p><a class="btn btn-default" href="/donations" role="button">See All Needs</a></p>
+    </div>
+    <div class="col-sm-6">
+        <h2>Drop Off Items Here</h2>
+        <p>Hale Kipa (Example)</p>
+        <p>615 Piikoi Street, Suite 203</p>
+        <p>Honolulu, Hawaii 96814 </p>
+    </div>
+</div>
+<hr />
+<div class="row text-center">
+    <h2>Add Eventbrite or something to help schedule events</h2>
+    <p class="lead">Maybe add something else to help see what events are going on, or what events had happened previously</p>
+    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    <p><a class="btn btn-default" href="#" role="button">View details</a></p>
+</div>
+<hr />
+<div class="row">
+    <div class="col-sm-4 text-center">
+        <h2>Testimonial 1</h2><img class="person" src="/static/images/sunglasses.jpeg" alt="Person 1" />
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    </div>
+    <div class="col-sm-4 text-center">
+        <h2>Testimonial 2</h2><img class="person" src="/static/images/sunglasses.jpeg" alt="Person 2" />
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    </div>
+    <div class="col-sm-4 text-center">
+        <h2>Testimonial 3</h2><img class="person" src="/static/images/sunglasses.jpeg" alt="Person 3" />
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    </div>
+</div>
+
+
+        {% endblock %}
