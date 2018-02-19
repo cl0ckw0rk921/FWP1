@@ -31,9 +31,9 @@ def contact():
     """Renders the contact page."""
     return render_template(
         'contact.html',
-        title='Contact',
+        title='Contact Us',
         year=datetime.now().year,
-        message='Your contact page.'
+        message='Your way to get in touch with us.'
     )
 
 @app.route('/diy')

@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FWP1\static\content\about.css" />
+    <Content Include="FWP1\static\content\biographies.css" />
+    <Content Include="FWP1\static\content\diy.css" />
+    <Content Include="FWP1\static\content\donations.css" />
     <Content Include="FWP1\static\content\home.css" />
     <Content Include="FWP1\static\content\inventory.css" />
     <Content Include="FWP1\static\images\boy_clothes.svg" />

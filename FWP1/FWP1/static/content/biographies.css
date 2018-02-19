@@ -1,0 +1,22 @@
+.person {
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+    transform: rotate(2deg);
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border: 10px solid transparent;
+    padding-bottom: 50px;
+    margin: 0 5px 25px 0;
+    width: 80%;
+    height: 80%;
+}
+
+#oddperson {
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+
+.btn {
+    margin-right: 5px;
+    background-color: #cf9414;
+}
